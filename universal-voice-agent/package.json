@@ -1,0 +1,20 @@
+{
+  "name": "universal-voice-agent",
+  "version": "1.0.0",
+  "description": "Universal SaaS-Agnostic AI Calling Agent Bridge — Exotel ↔ OpenAI Realtime API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "ws": "^8.18.0",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
